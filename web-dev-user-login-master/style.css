@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background: url(images/background.jpg) no-repeat center fixed;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 600px;
+  margin: auto;
+  padding: 20px 0 10px;
+  border-radius: 25px;
+  border: 3px solid purple;
+}
+
+.first {
+  padding: 10px;
+}
+
+.second {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+}
+
+.third {
+  padding: 15px;
+  margin: 0px 25px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 5px 15px;
+  font-size: 20px;
+}
+
+.italic {
+  font-style: italic;
+  text-decoration-line: none;
+  color: white;
+}
+ .italic:hover{
+   text-decoration: underline;
+   color: yellow;
+
+ }
